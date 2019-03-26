@@ -1,0 +1,464 @@
+    1  pwd
+    2  ssh -i "My-DevOps-Sec.pem" ec2-user@ec2-18-218-29-9.us-east-2.compute.amazonaws.com
+    3  pwd
+    4  yum install git
+    5  git --version
+    6  echo "Hellow Git World" > test.txt
+    7  echo test.txt
+    8  cat test.txt
+    9  md5
+   10  md5sum test.txt
+   11  vi test.txt
+   12  md5sum test.txt
+   13  ls -ltr
+   14  git config --global user.name "gajedra"
+   15  git config --global use.email "gajedra088@gmail.com"
+   16  git config --list
+   17  pwd
+   18  ls -ltr
+   19  mkdir git
+   20  get --version
+   21  git --version
+   22  git add test.txt
+   23  git init .
+   24  git add test.txt
+   25  git status
+   26  git commit -m "Initial commit for test.txt file"
+   27  git log
+   28  git log --stat
+   29  vi test.txt
+   30  git diff
+   31  vi README,tx
+   32  vi dependency.txt
+   33  git staus
+   34  git status
+   35  git checkout --text.txt
+   36  cat test.cat
+   37  cat test.txt
+   38  git add .
+   39  git commit -m "Added 2 more file to repository"
+   40  git status
+   41  git log --stat
+   42  git diff HEAD~test.txt
+   43  git diff HEAD text.txt
+   44  git diff HEAD~1
+   45  git diff HEAD ~1
+   46  git diff HEAD -1
+   47  git diff HEAD^^ test.txt
+   48  git diff HEAD~2 HEAD -- test.txt
+   49  git diff HEAD-1 test.txt
+   50  git diff HEAD test.txt
+   51  git diff HEAD test.txt
+   52  git diff HEAD-1 test.txt
+   53  git diff HEAD~1 test.txt
+   54  git diff HEAD~1 
+   55  git diff HEAD~1 *.txt
+   56  git diff HEAD~2 *.txt
+   57  clear
+   58  quit
+   59  exit
+   60  ls -ltr
+   61  rm -rf git
+   62  ls -ltr
+   63  git init .
+   64  ls ltr
+   65  ls -ltr
+   66  git init
+   67  ls -ltr
+   68  yum install git
+   69  ls -ltr
+   70  git status
+   71  git config list
+   72  git config --list
+   73  git config --global color.ui "auto"
+   74  git status
+   75  git init
+   76  ls -ltr
+   77  git init .
+   78  mkdir gitprj
+   79  cd gitprj
+   80  vi helloworld.java
+   81  git status
+   82  vi test.txt
+   83  ls -ltr
+   84  git status
+   85  git add helloworld.java
+   86  git status
+   87  git log
+   88  rm test.txt
+   89  ls -ltr
+   90  rm test.txt
+   91  ls -ltr
+   92  git log
+   93  git commit -m "First commit to gitprj"
+   94  git log
+   95  git HEAD
+   96  git HEAD help
+   97  git --help HEAD
+   98  --help  HEAD
+   99  git -help status
+  100  git --help status
+  101  clear
+  102  ls -ltr
+  103  vi helloworld.java
+  104  git status
+  105  git commit -m "added 2nd file"
+  106  git log
+  107  git commit -m "added 2nd line"
+  108  git add -all
+  109  git add --all
+  110  git add .
+  111  git status
+  112  git log
+  113  git commit -m "added 2nd line"
+  114  git log
+  115  git diff --staged
+  116  git status
+  117  git reset HEAD hellowworld.java
+  118  cat hellowworld.java
+  119  cat helloworld.java
+  120  git reset helloworld.java
+  121  cat helloworld.java
+  122  git commit -m "rm one line"
+  123  git log
+  124  git diff HEAD^ helloworld.java
+  125  vi helloworld.java
+  126  vi helloworld.java
+  127  git status
+  128  git add helloworld.java
+  129  git status
+  130  git checkout --helloworld.java
+  131  git checkout helloworld.java
+  132  git status
+  133  git log
+  134  cat helloworld.java
+  135  git diff HEAD^ helloworld.java
+  136  cd gitprj
+  137  git remote -v
+  138  git remote add mycentralserver https://github.com/govkriss/learngit.git
+  139  git remote -v
+  140  git push mycentralserver master
+  141  ls -ltr
+  142  git status
+  143  git add .
+  144  git status
+  145  git commit -a
+  146  git commit
+  147  git branch -a
+  148  git branch feature-1
+  149  git branch -a
+  150  git checkout feature-1
+  151  pwd
+  152  git branch -1
+  153  git branch -a
+  154  git status
+  155  git status
+  156  vi helloworld.java
+  157  git status
+  158  git commit -a -m "Added branch feature"
+  159  git status
+  160  cat helloworld.java
+  161  cd /root/
+  162  git clone https://github.com/govkriss/learngit.git
+  163  git commit -a -m "Feature"
+  164  pwd
+  165  cd gitprj
+  166  cd ../gitprj
+  167  cd /gitprj/
+  168  cd /govkriss
+  169  exit
+  170  pwd
+  171  ls -tr
+  172  cd gitprj
+  173  ls -ltr
+  174  git status
+  175  git remote -v
+  176  git push origin branch -1
+  177  git push origin branch-1
+  178  exit
+  179  pwd
+  180  git init .
+  181  ssh -i "My-DevOps-Sec.pem" ec2-user@ec2-3-18-104-216.us-east-2.compute.amazonaws.com
+  182  pwd
+  183  sudo su
+  184  exit
+  185  ssh -i "My-DevOps-Sec.pem" ec2-user@ec2-3-18-104-216.us-east-2.compute.amazonaws.com
+  186  ssh -i "My-DevOps-Sec.pem" ec2-user@ec2-3-18-104-216.us-east-2.compute.amazonaws.com
+  187  exit
+  188  yum install ansible
+  189  gitinit
+  190  git init .
+  191  ls
+  192  cd puppet
+  193  yum install kernel
+  194  reboot
+  195  git init .
+  196  ls -ltr
+  197  git status
+  198  mkdir puppet
+  199  git init
+  200  cd puppet
+  201  wget gttp://dl.fedoraproject.org/pub/epel/6/1386/epel-release-6.8.noarch.rpm
+  202  wget
+  203  apt-get
+  204  git init
+  205  cat /etc/passwed
+  206  cat /etc/passwd
+  207  exit
+  208  git init .
+  209  pwd
+  210  tail -n 5 /etc/passwd
+  211  cat /etc/passwd
+  212  for i in test{001..010}; do echo $i done; 
+  213  for i in test{001..010}; do echo $i; done
+  214  cat /etc/passwd
+  215  for i in test{001..010}; do echo $i; done >> /etc/passwd
+  216  cat /etc/passwd
+  217  for i in usr{001..010}; do add $i;done
+  218  for i in usr{001..010}; do useradd $i;done
+  219  cat /etc/passwd
+  220  for in in usr{001..010}; do echo "tet123" | passwd $i --stdin;done
+  221  cat /etc/passwd
+  222  su - usr001
+  223  git branch govardhan
+  224  ls
+  225  git branch list
+  226  git bracnh --list
+  227  git branch --list
+  228  git chekout govardhan
+  229  git checkout govardhan
+  230  git branch --list
+  231  git branch sabair
+  232  git branch --list
+  233  git checkout sabair
+  234  git branch --list
+  235  git checkout govardhan
+  236  ls
+  237  clear
+  238  git branch --list
+  239  ls
+  240  touch gov.txt
+  241  vi gov.txt
+  242  ls
+  243  histroy
+  244  git history
+  245  git --history
+  246  git --historyyyyyy
+  247  mkdir test
+  248  ls
+  249  cd test
+  250  touch one.txt
+  251  ls
+  252  git init
+  253  ls -la
+  254  cd .git
+  255  ls
+  256  cd branches/
+  257  ls
+  258  ls
+  259  git status
+  260  cd ..
+  261  cd ..
+  262  ls
+  263  git status
+  264  vi one.txt 
+  265  git status
+  266  git add one.txt 
+  267  git status
+  268  git commit -m "first"
+  269  git status
+  270  vi one.txt
+  271  git status
+  272  git diff
+  273  git add one.txt
+  274  fit status
+  275  git status
+  276  git commit -m 
+  277  git commit -m "two"
+  278  git status
+  279  git diff
+  280  ls
+  281  touch password
+  282  ls
+  283  touch .gitignore
+  284  ls
+  285  ls -la
+  286  vi .gitignore 
+  287  git status
+  288  git stash one.txt 
+  289  git stash list
+  290  clear
+  291  git stash
+  292  ls
+  293  vi one.txt 
+  294  git stash one.txt 
+  295  git stash list
+  296  git stash show
+  297  pwd
+  298  git init .
+  299  cd test2
+  300  ls
+  301  touch file1.txt
+  302  vi file1.txt
+  303  ls
+  304  cd ..
+  305  git status
+  306  cd test2
+  307  ls
+  308  git add file1.txt
+  309  git status
+  310  git commit -m "file1 first comming"
+  311  git status
+  312  vi file1.txt
+  313  git status
+  314  git commit file1.txt "added line2"
+  315  git commit -m "added line2"
+  316  git status
+  317  git checkout file1.txt
+  318  git status
+  319  cat file1.txt
+  320  vi file1.txt
+  321  git ststus
+  322  git status
+  323  git dd file1.txt
+  324  git add file1.txt
+  325  git status
+  326  git commit -m "added line 2"
+  327  git status
+  328  git checkout file1.txt
+  329  git status
+  330  cat file1.tt
+  331  cat file1.txt
+  332  clear
+  333  git init .
+  334  ls
+  335  cd test
+  336  git staus
+  337  git status
+  338  git add -A
+  339  git commit -m "committed all files"
+  340  git rm two.txt
+  341  ls
+  342  touch three.txt
+  343  ls -ltr
+  344  vi four.txt
+  345  ls -ltr
+  346  vi three.txt
+  347  vi four.txt
+  348  git add three.txt
+  349  git add four.txt
+  350  git staus
+  351  git status
+  352  rm four.txt
+  353  git status
+  354  git commit -m "add /del"
+  355  git status
+  356  git branch test
+  357  touch b1.txt
+  358  vi b1.txt
+  359  git status
+  360  git init
+  361  cd Git/prj1/TestGit
+  362  pwd
+  363  ls -trl
+  364  cd gitprj
+  365  ls
+  366  cd ..
+  367  cd test
+  368  ls
+  369  git status
+  370  git add -A
+  371  git status
+  372  git commit -m "GitHub test"
+  373  git remote add origin "https://github.com/goverdha/firstgit.git"
+  374  git config --list
+  375  git config --global user.name "Govardhana"
+  376  git config --global user.email "govardhana.bk@dxc.com"
+  377  git config --global user.color "auto"
+  378  git config --list
+  379  git status
+  380  git push -u origin master
+  381  ls -ltr
+  382  git config --global user.color "auto"
+  383  git status
+  384  git branch
+  385  cd master
+  386  git branch master
+  387  git master
+  388  ls
+  389  vi gov.txt
+  390  git status
+  391  git branch
+  392  git add gov.txt
+  393  git staus
+  394  git status
+  395  git commit -m "added text to gov.tt"
+  396  git branch
+  397  git branch -d govardhan
+  398  git branch list
+  399  git checkout master
+  400  ls
+  401  git remote add origin "https://github.com/goverdha/firstgit.git"
+  402  git push origin master
+  403  git init
+  404  git status
+  405  git push origin master
+  406  git pull origin master
+  407  ls
+  408  git push origin master
+  409  git status
+  410  git add password
+  411  git status
+  412  git commit -m "added passwd file"
+  413  git push origin master
+  414  ls
+  415  cat one.txt
+  416  git pull origin master
+  417  cat one.txt
+  418  git status
+  419  git init
+  420  ls
+  421  git .gitignore
+  422  touch .gitignore
+  423  vi .gitignore
+  424  git status
+  425  vi test123.txt
+  426  git status
+  427  ls 
+  428  git status
+  429  ls
+  430  mkdir myprj
+  431  cd myprj
+  432  ls
+  433  touch .gitinit
+  434  rm .gitinit
+  435  git init
+  436  git config --list
+  437  clear
+  438  git remote -v
+  439  git clone https://github.com/goverdha/firstgit.git
+  440  ls
+  441  cd firstgit
+  442  ls
+  443  touch two.txt
+  444  git add two.txt
+  445  git commit -m "adding two.txt file"
+  446  git push -u origin 
+  447  git push -u origin 
+  448  git pull https://github.com/goverdha/firstgit.git
+  449  git branch b1
+  450  git branch --list
+  451  git checkout b1
+  452  git push -u orgin master:b1
+  453  git push -u https://github.com/goverdha/firstgit.git:b1
+  454  git push -u https://github.com/goverdha/firstgit.git b1
+  455  git branch b2
+  456  git branch --list
+  457  git checkout b2
+  458  git branch --list
+  459  git fetch --all
+  460  git branch --list
+  461  git checkout b3
+  462  git branch --list
+  463  history
+  464  history > commands.txt
